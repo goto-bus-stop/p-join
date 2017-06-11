@@ -1,0 +1,18 @@
+{
+  "name": "p-join",
+  "version": "0.0.0",
+  "description": "combine results from multiple promises into a single value",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Renée Kooi <renee@kooi.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "delay": "^2.0.0",
+    "tape": "^4.6.3"
+  }
+}
