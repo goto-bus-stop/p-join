@@ -1,6 +1,6 @@
 {
   "name": "p-join",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "combine results from multiple promises into a single value",
   "main": "index.js",
   "scripts": {
