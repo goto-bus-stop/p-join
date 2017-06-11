@@ -2,6 +2,8 @@
 
 Combine results from multiple promises into a single value.
 
+Like [Promise.join](http://bluebirdjs.com/docs/api/promise.join.html) from bluebird.
+
 ## Installation
 
 With npm:
