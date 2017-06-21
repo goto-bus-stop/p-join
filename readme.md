@@ -1,5 +1,7 @@
 # p-join
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/goto-bus-stop/p-join.svg)](https://greenkeeper.io/)
+
 Combine results from multiple promises into a single value.
 
 Like [Promise.join](http://bluebirdjs.com/docs/api/promise.join.html) from bluebird.
