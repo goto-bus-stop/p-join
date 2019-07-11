@@ -1,18 +1,21 @@
 {
   "name": "p-join",
-  "version": "1.1.0",
   "description": "combine results from multiple promises into a single value",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test.js"
-  },
-  "keywords": [
-    "promise"
-  ],
+  "version": "1.1.0",
   "author": "Renée Kooi <renee@kooi.me>",
-  "license": "MIT",
+  "bugs": "https://github.com/goto-bus-stop/p-join/issues",
   "devDependencies": {
     "delay": "^2.0.0",
     "tape": "^4.11.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/p-join",
+  "keywords": [
+    "promise"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "goto-bus-stop/p-join",
+  "scripts": {
+    "test": "node test"
   }
 }
