@@ -1,13 +1,18 @@
 var test = require('tape')
-var delay = require('delay')
 var join = require('./')
+
+function delay (ms) {
+  return new Promise(function (resolve) {
+    setTimeout(resolve, ms)
+  })
+}
 
 test('resolves in order', function (t) {
   t.plan(3)
 
   join(
     Promise.resolve(10),
-    delay().then(function () { return 20 }),
+    delay(5).then(function () { return 20 }),
     Promise.resolve(30),
     function (a, b, c) {
       t.is(a, 10)
